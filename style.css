@@ -108,3 +108,20 @@
     height: 20px;
     margin-left: 0;
 }
+.mid-frame{
+    margin: 0px 50px;
+    width: auto;
+    height: auto;
+}
+.mid-frame img{
+  width:100%;
+  border: 2px solid #777;
+  padding: 2px;
+
+}  
+hr{
+    width: 80%;
+    align-content: center;
+    margin: 30px 10%;
+    border: 3px solid #777;
+}
