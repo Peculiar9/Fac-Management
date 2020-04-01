@@ -2,19 +2,45 @@
     padding: 0;
     margin: 0;
     font-family: montserrat;
-    background-color: #eee;
 }
-#left-side{
+#body{
+    display: flex;
+}
+
+.left-side{
+    flex-basis: 25%;
     height: 100vh;
     width: 250px;
-    background-color: #fff;
+    background-color: rgb(156, 80, 80);
     left: 0;
     top: 0;
 }
-#right-side{
+.right-side{
+    flex-basis: 25%;
     height: 100vh;
     width: 250px;
     background-color: #000;
     right: 0;
     top: 0;
+    justify-content: end;
+}
+.middle
+{
+    height: 100vh;
+    width: 100%;
+    background-color: #eee;
+    right: 0;
+    top: 0;
+    flex-basis: auto;
+}
+.head-row{
+    margin: 25px;
+    padding: 2px 5px;
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.head-row img{
+   width: 25px;
+  
 }
